@@ -145,9 +145,11 @@ class HybridRetriever:
             if 0 <= idx < n:
                 faiss_norm[idx] = float(distances[0][rank])
         
-        # Normalize FAISS scores to 0-1 range (invert: lower distance = higher score)
+        # Normalize FAISS scores to 0-1 range
+        # NOTE: Index is IndexFlatIP (inner product / cosine similarity for L2-normalized vectors)
+        # Higher IP score = better match, so we normalize directly (NO inversion needed)
         faiss_max = max(faiss_norm.max(), 1e-6)
-        faiss_norm = 1.0 - (faiss_norm / faiss_max)  # Invert: high sim -> high score
+        faiss_norm = faiss_norm / faiss_max  # Direct normalize: higher score = better match
 
         # ── 4. Dynamic BM25/FAISS weighting by query length ─────────────────────────
         query_words = query.lower().split()
