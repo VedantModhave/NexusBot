@@ -1,4 +1,4 @@
-"""Build FAISS index + metadata from FAQs and policy documents."""
+"""Build FAISS index + metadata from FAQs, policy documents, and PDFs."""
 
 import json
 import os
@@ -12,6 +12,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, project_root)
 
 from src.nlp.embedder import MultilingualEmbedder
+from src.ingestion.pdf_parser import PDFParser
 
 
 def infer_category(text: str) -> str:
@@ -120,6 +121,32 @@ def build_index():
             doc_count += 1
 
     print(f"[2/4] Loaded {doc_count} policy chunks")
+
+    # 2b. Load PDFs from documents folder
+    pdf_count = 0
+    documents_dir = os.path.join(data_dir, "documents")
+    pdf_parser = PDFParser()
+    if os.path.exists(documents_dir):
+        try:
+            pdf_pages = pdf_parser.parse_directory(documents_dir)
+            for page in pdf_pages:
+                # Skip if already loaded as .txt
+                if page["source"].endswith(".pdf"):
+                    all_docs.append({
+                        "id": f"pdf_{pdf_count}",
+                        "text": page["text"],
+                        "question": "",
+                        "answer": page["text"],
+                        "category": infer_category(page["text"]),
+                        "source": f"pdf_page_{page['page_number']}",
+                        "tags": [],
+                    })
+                    pdf_count += 1
+        except Exception as e:
+            print(f"[2b] PDF parsing warning: {e}")
+
+    if pdf_count > 0:
+        print(f"[2b] Loaded {pdf_count} PDF pages")
     print(f"       Total documents: {len(all_docs)}")
 
     # 3. Generate embeddings
@@ -148,6 +175,7 @@ def build_index():
     print(f"  [OK] Index rebuilt: {len(all_docs)} total documents")
     print(f"  [FAQ] FAQ entries:    {faq_count}")
     print(f"  [DOC] Policy chunks:  {doc_count}")
+    print(f"  [PDF] PDF pages:      {pdf_count}")
     print(f"  [TAG] Categories:     {dict(cat_counts)}")
     print("=" * 60)
 
