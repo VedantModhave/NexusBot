@@ -132,7 +132,7 @@ function addMsg(text, side, extra){
         const b = document.createElement('span');
         b.className = 'badge';
         const ln = LANG_NAMES[extra.lang] || extra.lang;
-        b.textContent = '🌐 ' + ln + ' • ' + Math.round(extra.conf||0) + '% confidence';
+        b.textContent = '🌐 ' + ln + ' • ';
         meta.appendChild(b);
     }
 
@@ -175,7 +175,7 @@ async function send(text){
         const data = await r.json();
         hideTyping();
         const displayLang = document.getElementById('lang').value;
-        addMsg(data.response, 'bot', {lang:displayLang, conf:data.confidence, mid:data.message_id});
+        addMsg(data.response, 'bot', {lang:displayLang, mid:data.message_id});
     }catch(e){
         hideTyping();
         addMsg('⚠️ Server error. Please try again.', 'bot');
