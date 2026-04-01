@@ -8,6 +8,7 @@ from src.nlp.retriever import HybridRetriever
 from src.chatbot.context_manager import ConversationContext
 from src.chatbot.response_generator import ResponseGenerator
 from src.chatbot.fallback import FallbackHandler
+from src.chatbot.conversation_logger import ConversationLogger
 
 GREETINGS = {
     "hi", "hello", "hey", "hii", "helo", "heya", "howdy",
@@ -87,6 +88,7 @@ class ChatPipeline:
         self.response_gen = ResponseGenerator(self.embedder)
         self.context = ConversationContext()
         self.fallback = FallbackHandler()
+        self.conv_logger = ConversationLogger()
 
         self.stats = {
             "total": 0,
@@ -99,14 +101,30 @@ class ChatPipeline:
     def chat(self, user_input: str, session_id: str, response_lang: str = "en") -> dict:
         """Process user message through the full RAG pipeline."""
         self.stats["total"] += 1
+        turn_num = self.stats["total"]
         
         # Determine fallback default language safely
         lang = response_lang if response_lang in GREETING_RESPONSES else "en"
 
         # Step 1: Greeting check
         if is_greeting(user_input):
+            response_text = GREETING_RESPONSES.get(lang, GREETING_RESPONSES["en"])
+            # Log conversation turn
+            self.conv_logger.log_turn(
+                session_id=session_id,
+                turn_num=turn_num,
+                query=user_input,
+                query_lang="en",
+                response=response_text,
+                response_lang=response_lang,
+                intent="greeting",
+                category="greeting",
+                confidence=1.0,
+                method="greeting",
+                is_fallback=False,
+            )
             return {
-                "response": GREETING_RESPONSES.get(lang, GREETING_RESPONSES["en"]),
+                "response": response_text,
                 "detected_language": response_lang,
                 "confidence": 1.0,
                 "category": "greeting",
@@ -116,8 +134,23 @@ class ChatPipeline:
 
         # Step 2: Gibberish check
         if is_gibberish(user_input):
+            response_text = GIBBERISH_RESPONSES.get(lang, GIBBERISH_RESPONSES["en"])
+            # Log conversation turn
+            self.conv_logger.log_turn(
+                session_id=session_id,
+                turn_num=turn_num,
+                query=user_input,
+                query_lang="unknown",
+                response=response_text,
+                response_lang=response_lang,
+                intent="gibberish",
+                category="unknown",
+                confidence=0.0,
+                method="gibberish_check",
+                is_fallback=True,
+            )
             return {
-                "response": GIBBERISH_RESPONSES.get(lang, GIBBERISH_RESPONSES["en"]),
+                "response": response_text,
                 "detected_language": response_lang,
                 "confidence": 0.0,
                 "category": "unknown",
@@ -151,6 +184,21 @@ class ChatPipeline:
 
             response_final = FALLBACK_RESPONSES.get(lang, FALLBACK_RESPONSES["en"])
             self.context.update(session_id, user_input, response_final, "unknown")
+            
+            # Log fallback turn
+            self.conv_logger.log_turn(
+                session_id=session_id,
+                turn_num=turn_num,
+                query=user_input,
+                query_lang=response_lang,
+                response=response_final,
+                response_lang=response_lang,
+                intent="valid_query",
+                category="unknown",
+                confidence=round(top_score, 3),
+                method="RAG_fallback",
+                is_fallback=True,
+            )
 
             return {
                 "response": response_final,
@@ -175,6 +223,21 @@ class ChatPipeline:
         # Step 10: Update stats
         self.stats["confidence_sum"] += gen_result["confidence"]
         self.stats["categories"][cat] = self.stats["categories"].get(cat, 0) + 1
+        
+        # Log successful RAG turn
+        self.conv_logger.log_turn(
+            session_id=session_id,
+            turn_num=turn_num,
+            query=user_input,
+            query_lang=detected_lang,
+            response=response_final,
+            response_lang=response_lang,
+            intent="valid_query",
+            category=cat,
+            confidence=round(gen_result["confidence"], 3),
+            method="RAG",
+            is_fallback=False,
+        )
 
         return {
             "response": response_final,

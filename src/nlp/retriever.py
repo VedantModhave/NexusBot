@@ -133,8 +133,8 @@ class HybridRetriever:
         # ── 2. BM25 scores (use expanded query) ─────────────────────────────
         tokenized_query = _tokenize(expanded_query)
         bm25_scores = self.bm25.get_scores(tokenized_query)
-        bm25_max    = max(bm25_scores.max(), 3.0)  # Bound denominator so noise doesn't inflate
-        bm25_norm   = bm25_scores / bm25_max
+        bm25_max    = max(bm25_scores.max(), 1e-6)  # Use actual max, not a bound
+        bm25_norm   = np.clip(bm25_scores / bm25_max, 0.0, 1.0)  # Always 0-1
 
         # ── 3. FAISS scores (original query — semantic) ─────────────────────────────
         query_vec  = self.embedder.embed_single(query).reshape(1, -1).astype("float32")
@@ -144,6 +144,10 @@ class HybridRetriever:
         for rank, idx in enumerate(indices[0]):
             if 0 <= idx < n:
                 faiss_norm[idx] = float(distances[0][rank])
+        
+        # Normalize FAISS scores to 0-1 range (invert: lower distance = higher score)
+        faiss_max = max(faiss_norm.max(), 1e-6)
+        faiss_norm = 1.0 - (faiss_norm / faiss_max)  # Invert: high sim -> high score
 
         # ── 4. Dynamic BM25/FAISS weighting by query length ─────────────────────────
         query_words = query.lower().split()
@@ -163,6 +167,9 @@ class HybridRetriever:
         for i, entry in enumerate(self.metadata):
             if entry.get("source") in ("faq", "faq_hi"):
                 combined[i] *= 1.15
+        
+        # ── Ensure combined scores never exceed 1.0 ─────────────────────────────
+        combined = np.clip(combined, 0.0, 1.0)
 
         # ── 6. Rank ─────────────────────────────────────────────────────────────────
         top_indices   = np.argsort(combined)[::-1][:top_k]
