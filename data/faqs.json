@@ -1,0 +1,767 @@
+[
+  {
+    "id": "fee_001",
+    "category": "fees",
+    "question_en": "What is the tuition fee for the B.Tech program?",
+    "answer_en": "The tuition fee for the B.Tech program is ₹1,25,000 per semester. This includes tuition, laboratory charges, and library fees. Payment can be made online through the student portal using UPI, net banking, or credit/debit card.",
+    "question_hi": "बी.टेक कार्यक्रम की ट्यूशन फीस क्या है?",
+    "answer_hi": "बी.टेक कार्यक्रम की ट्यूशन फीस ₹1,25,000 प्रति सेमेस्टर है। इसमें ट्यूशन, प्रयोगशाला शुल्क और पुस्तकालय शुल्क शामिल हैं। भुगतान छात्र पोर्टल के माध्यम से UPI, नेट बैंकिंग या कार्ड से किया जा सकता है।",
+    "tags": ["tuition", "fee", "btech", "semester", "payment"]
+  },
+  {
+    "id": "fee_002",
+    "category": "fees",
+    "question_en": "What is the fee for the MBA program?",
+    "answer_en": "The MBA program fee is ₹2,00,000 per semester. This covers tuition, case study materials, and industry visit charges. Scholarships and education loans are available for eligible students through SBI and HDFC Bank.",
+    "question_hi": "एमबीए कार्यक्रम की फीस क्या है?",
+    "answer_hi": "एमबीए कार्यक्रम की फीस ₹2,00,000 प्रति सेमेस्टर है। इसमें ट्यूशन, केस स्टडी सामग्री और उद्योग भ्रमण शुल्क शामिल हैं। पात्र छात्रों के लिए छात्रवृत्ति और शिक्षा ऋण उपलब्ध हैं।",
+    "tags": ["mba", "fee", "semester", "loan", "management"]
+  },
+  {
+    "id": "fee_003",
+    "category": "fees",
+    "question_en": "What is the last date for fee payment?",
+    "answer_en": "Fee payment must be completed within 30 days of the semester start date. Late payment attracts a fine of ₹100 per day for the first 15 days and ₹200 per day thereafter. Students facing financial difficulties should contact the accounts office for instalment options.",
+    "question_hi": "फीस भुगतान की अंतिम तिथि क्या है?",
+    "answer_hi": "सेमेस्टर शुरू होने की तारीख से 30 दिनों के भीतर फीस का भुगतान पूरा करना होगा। देरी से भुगतान पर पहले 15 दिनों के लिए ₹100 प्रतिदिन और उसके बाद ₹200 प्रतिदिन का जुर्माना लगता है।",
+    "tags": ["fee", "deadline", "late", "fine", "payment"]
+  },
+  {
+    "id": "fee_004",
+    "category": "fees",
+    "question_en": "How can I pay my fees online?",
+    "answer_en": "You can pay fees online through the student portal at portal.xyzcollege.edu.in. Log in with your student ID, go to the Fee Payment section, and use UPI, net banking, or credit/debit card. A payment receipt is generated automatically after successful payment.",
+    "question_hi": "मैं अपनी फीस ऑनलाइन कैसे भुगतान कर सकता हूँ?",
+    "answer_hi": "आप छात्र पोर्टल portal.xyzcollege.edu.in पर ऑनलाइन फीस का भुगतान कर सकते हैं। अपने छात्र आईडी से लॉगिन करें, फीस भुगतान अनुभाग में जाएं, और UPI, नेट बैंकिंग या कार्ड का उपयोग करें।",
+    "tags": ["fee", "online", "payment", "portal", "upi"]
+  },
+  {
+    "id": "fee_005",
+    "category": "fees",
+    "question_en": "Is there a hostel fee in addition to tuition?",
+    "answer_en": "Yes, the hostel fee is ₹60,000 per semester for a shared room and ₹90,000 for a single room. This includes accommodation, mess charges for breakfast, lunch and dinner, Wi-Fi, and laundry services.",
+    "question_hi": "क्या ट्यूशन के अलावा छात्रावास शुल्क भी है?",
+    "answer_hi": "हाँ, छात्रावास शुल्क साझा कमरे के लिए ₹60,000 प्रति सेमेस्टर और एकल कमरे के लिए ₹90,000 है। इसमें आवास, मेस शुल्क, वाई-फाई और लॉन्ड्री सेवाएं शामिल हैं।",
+    "tags": ["hostel", "fee", "room", "mess", "accommodation"]
+  },
+  {
+    "id": "fee_006",
+    "category": "fees",
+    "question_en": "Can I get a fee refund if I withdraw from the course?",
+    "answer_en": "Fee refund policy is as follows: withdrawal within 15 days of admission gets 90% refund, within 30 days gets 75% refund, within 60 days gets 50% refund, and after 60 days no refund is applicable. Caution deposit of ₹10,000 is fully refundable upon course completion.",
+    "question_hi": "अगर मैं कोर्स से वापस ले लूं तो क्या मुझे फीस वापस मिल सकती है?",
+    "answer_hi": "फीस वापसी नीति: प्रवेश के 15 दिनों के भीतर 90% रिफंड, 30 दिनों के भीतर 75%, 60 दिनों के भीतर 50%, और 60 दिनों के बाद कोई रिफंड नहीं। ₹10,000 का कॉशन डिपॉजिट पूरी तरह से वापसी योग्य है।",
+    "tags": ["fee", "refund", "withdrawal", "caution", "deposit"]
+  },
+  {
+    "id": "fee_007",
+    "category": "fees",
+    "question_en": "Are there any additional laboratory or activity fees?",
+    "answer_en": "Yes, in addition to tuition there are extra charges. Laboratory fee is ₹15,000 per semester for science and engineering students, activity fee is ₹5,000 per year covering cultural events and sports, and examination fee is ₹3,000 per semester.",
+    "question_hi": "क्या कोई अतिरिक्त प्रयोगशाला या गतिविधि शुल्क हैं?",
+    "answer_hi": "हाँ, ट्यूशन के अलावा प्रयोगशाला शुल्क ₹15,000 प्रति सेमेस्टर, गतिविधि शुल्क ₹5,000 प्रति वर्ष, और परीक्षा शुल्क ₹3,000 प्रति सेमेस्टर है।",
+    "tags": ["fee", "laboratory", "activity", "examination", "additional"]
+  },
+  {
+    "id": "fee_008",
+    "category": "fees",
+    "question_en": "What is the management quota fee?",
+    "answer_en": "The management quota fee is ₹2,50,000 per semester for B.Tech and ₹3,50,000 for MBA. Students applying under management quota must still meet the minimum eligibility criteria of 60% in Class 12 for B.Tech.",
+    "question_hi": "प्रबंधन कोटा की फीस क्या है?",
+    "answer_hi": "प्रबंधन कोटा शुल्क बी.टेक के लिए ₹2,50,000 प्रति सेमेस्टर और एमबीए के लिए ₹3,50,000 है। प्रबंधन कोटा छात्रों को न्यूनतम पात्रता मानदंड पूरा करना होगा।",
+    "tags": ["management", "quota", "fee", "btech", "mba"]
+  },
+  {
+    "id": "schol_001",
+    "category": "scholarship",
+    "question_en": "What scholarships are available for meritorious students?",
+    "answer_en": "XYZ College offers three merit scholarships. The Principal's Gold Medal provides 100% tuition waiver for CGPA above 9.5. The Dean's List Scholarship gives 50% tuition waiver for CGPA above 9.0. The Departmental Merit Award provides ₹25,000 per year for the top 3 students in each department.",
+    "question_hi": "मेधावी छात्रों के लिए कौन सी छात्रवृत्तियां उपलब्ध हैं?",
+    "answer_hi": "XYZ कॉलेज तीन मेरिट छात्रवृत्तियां प्रदान करता है। प्रिंसिपल गोल्ड मेडल 9.5 से अधिक CGPA के लिए 100% ट्यूशन माफी देता है। डीन लिस्ट छात्रवृत्ति 9.0 से अधिक CGPA के लिए 50% माफी देती है। विभागीय मेरिट पुरस्कार शीर्ष 3 छात्रों को ₹25,000 प्रति वर्ष देता है।",
+    "tags": ["scholarship", "merit", "cgpa", "waiver", "gold medal"]
+  },
+  {
+    "id": "schol_002",
+    "category": "scholarship",
+    "question_en": "Are there scholarships for economically weaker sections?",
+    "answer_en": "Yes, students from EWS families with annual income below ₹8,00,000 are eligible for the Government Post-Matric Scholarship. The college also offers the Access for All scholarship covering 75% of tuition for students with family income below ₹3,00,000 per annum.",
+    "question_hi": "क्या आर्थिक रूप से कमजोर वर्गों के लिए छात्रवृत्ति उपलब्ध है?",
+    "answer_hi": "हाँ, ₹8,00,000 से कम वार्षिक आय वाले EWS परिवारों के छात्र सरकारी पोस्ट-मैट्रिक छात्रवृत्ति के लिए पात्र हैं। कॉलेज ₹3,00,000 से कम आय वालों के लिए 75% ट्यूशन छूट भी देता है।",
+    "tags": ["scholarship", "ews", "income", "government", "post-matric"]
+  },
+  {
+    "id": "schol_003",
+    "category": "scholarship",
+    "question_en": "How do I apply for a scholarship?",
+    "answer_en": "Scholarship applications are accepted online through the student portal from July 1 to August 15 each year. You need to upload your income certificate, mark sheets, and a recommendation letter from your HOD. Results are announced by September 15.",
+    "question_hi": "मैं छात्रवृत्ति के लिए कैसे आवेदन करूं?",
+    "answer_hi": "छात्रवृत्ति आवेदन हर साल 1 जुलाई से 15 अगस्त तक छात्र पोर्टल से ऑनलाइन स्वीकार किए जाते हैं। आपको आय प्रमाण पत्र, अंक पत्र और HOD का सिफारिश पत्र अपलोड करना होगा। परिणाम 15 सितंबर तक घोषित होते हैं।",
+    "tags": ["scholarship", "application", "apply", "documents", "portal"]
+  },
+  {
+    "id": "schol_004",
+    "category": "scholarship",
+    "question_en": "Are sports scholarships available?",
+    "answer_en": "Yes, students who have represented at the state or national level in any sport recognized by the Sports Authority of India can receive a sports scholarship of up to ₹50,000 per year plus 50% fee concession. Apply through the Sports Department with your certificates.",
+    "question_hi": "क्या खेल छात्रवृत्ति उपलब्ध है?",
+    "answer_hi": "हाँ, भारतीय खेल प्राधिकरण द्वारा मान्यता प्राप्त किसी भी खेल में राज्य या राष्ट्रीय स्तर पर प्रतिनिधित्व करने वाले छात्रों को ₹50,000 तक की छात्रवृत्ति और 50% शुल्क छूट मिल सकती है।",
+    "tags": ["scholarship", "sports", "national", "state", "concession"]
+  },
+  {
+    "id": "schol_005",
+    "category": "scholarship",
+    "question_en": "Is there a scholarship for girl students?",
+    "answer_en": "Yes, the Vidya Lakshmi scholarship provides ₹30,000 annual scholarship to girl students with CGPA above 8.0. Additionally, girl students from rural backgrounds receive a 25% fee concession under the state government Beti Padhao scheme.",
+    "question_hi": "क्या छात्राओं के लिए छात्रवृत्ति है?",
+    "answer_hi": "हाँ, विद्या लक्ष्मी छात्रवृत्ति 8.0 से अधिक CGPA वाली छात्राओं को ₹30,000 वार्षिक छात्रवृत्ति प्रदान करती है। ग्रामीण पृष्ठभूमि की छात्राओं को बेटी पढ़ाओ योजना के तहत 25% शुल्क छूट मिलती है।",
+    "tags": ["scholarship", "girls", "women", "vidya lakshmi", "beti padhao"]
+  },
+  {
+    "id": "schol_006",
+    "category": "scholarship",
+    "question_en": "Can I get a scholarship for research projects?",
+    "answer_en": "Yes, students involved in research projects under faculty guidance can apply for the Research Innovation Grant of up to ₹1,00,000. Final year B.Tech and M.Tech students can also apply for AICTE-sponsored research fellowships through the college R&D cell.",
+    "question_hi": "क्या मुझे अनुसंधान परियोजनाओं के लिए छात्रवृत्ति मिल सकती है?",
+    "answer_hi": "हाँ, संकाय मार्गदर्शन में अनुसंधान परियोजनाओं में शामिल छात्र ₹1,00,000 तक के रिसर्च इनोवेशन ग्रांट के लिए आवेदन कर सकते हैं। अंतिम वर्ष के छात्र AICTE-प्रायोजित अनुसंधान फेलोशिप के लिए भी आवेदन कर सकते हैं।",
+    "tags": ["scholarship", "research", "grant", "innovation", "aicte"]
+  },
+  {
+    "id": "schol_007",
+    "category": "scholarship",
+    "question_en": "What is the SC/ST scholarship amount?",
+    "answer_en": "SC/ST students are eligible for the Central Government Post-Matric Scholarship which covers full tuition fees plus a monthly maintenance allowance of ₹3,000 for hostellers and ₹1,500 for day scholars. Applications are processed through the National Scholarship Portal.",
+    "question_hi": "SC/ST छात्रवृत्ति की राशि कितनी है?",
+    "answer_hi": "SC/ST छात्र केंद्र सरकार की पोस्ट-मैट्रिक छात्रवृत्ति के लिए पात्र हैं जो पूर्ण ट्यूशन फीस और छात्रावास छात्रों के लिए ₹3,000 मासिक रखरखाव भत्ता कवर करती है। आवेदन राष्ट्रीय छात्रवृत्ति पोर्टल से किए जाते हैं।",
+    "tags": ["scholarship", "sc", "st", "government", "maintenance"]
+  },
+  {
+    "id": "schol_008",
+    "category": "scholarship",
+    "question_en": "When are scholarship results announced?",
+    "answer_en": "Merit scholarship results are announced by September 15 each year. Government scholarship results depend on the respective government portal timelines but typically come within 3 months of application. Students can check their status on the student portal under Scholarship Status section.",
+    "question_hi": "छात्रवृत्ति परिणाम कब घोषित होते हैं?",
+    "answer_hi": "मेरिट छात्रवृत्ति परिणाम हर साल 15 सितंबर तक घोषित किए जाते हैं। सरकारी छात्रवृत्ति परिणाम आमतौर पर आवेदन के 3 महीने के भीतर आते हैं। छात्र अपनी स्थिति छात्र पोर्टल पर देख सकते हैं।",
+    "tags": ["scholarship", "results", "announcement", "status", "portal"]
+  },
+  {
+    "id": "exam_001",
+    "category": "exams",
+    "question_en": "When are the end-semester exams held?",
+    "answer_en": "End-semester examinations are held in May for the even semester and December for the odd semester. The detailed date sheet is published on the college website 30 days before the exam start date. Students must have minimum 75% attendance to be eligible.",
+    "question_hi": "सेमेस्टर के अंतिम परीक्षा कब होती हैं?",
+    "answer_hi": "सेमेस्टर अंत परीक्षाएं सम सेमेस्टर के लिए मई में और विषम सेमेस्टर के लिए दिसंबर में आयोजित की जाती हैं। डेट शीट परीक्षा से 30 दिन पहले कॉलेज वेबसाइट पर प्रकाशित होती है। न्यूनतम 75% उपस्थिति अनिवार्य है।",
+    "tags": ["exam", "semester", "datesheet", "attendance", "schedule"]
+  },
+  {
+    "id": "exam_002",
+    "category": "exams",
+    "question_en": "What is the passing criteria for exams?",
+    "answer_en": "Students must score a minimum of 40% in each subject to pass. The evaluation consists of 30% internal assessment including quizzes, assignments, and mid-terms, and 70% end-semester examination. Students must pass both components separately.",
+    "question_hi": "परीक्षा उत्तीर्ण करने के लिए मानदंड क्या है?",
+    "answer_hi": "उत्तीर्ण होने के लिए प्रत्येक विषय में न्यूनतम 40% अंक आवश्यक हैं। मूल्यांकन में 30% आंतरिक मूल्यांकन और 70% सेमेस्टर अंत परीक्षा शामिल है। दोनों घटकों को अलग-अलग पास करना अनिवार्य है।",
+    "tags": ["exam", "passing", "criteria", "marks", "internal"]
+  },
+  {
+    "id": "exam_003",
+    "category": "exams",
+    "question_en": "How do I apply for a supplementary exam?",
+    "answer_en": "Students who fail in up to 3 subjects can apply for supplementary examinations held in July for even semester and February for odd semester. The re-exam fee is ₹500 per subject. Applications must be submitted within 15 days of result declaration through the exam portal.",
+    "question_hi": "मैं पूरक परीक्षा के लिए कैसे आवेदन करूं?",
+    "answer_hi": "जो छात्र 3 विषयों तक में अनुत्तीर्ण होते हैं, वे पूरक परीक्षा के लिए आवेदन कर सकते हैं जो सम सेमेस्टर के लिए जुलाई में और विषम सेमेस्टर के लिए फरवरी में होती है। पुनः परीक्षा शुल्क ₹500 प्रति विषय है।",
+    "tags": ["exam", "supplementary", "reexam", "fail", "apply"]
+  },
+  {
+    "id": "exam_004",
+    "category": "exams",
+    "question_en": "What is the grading system used?",
+    "answer_en": "XYZ College follows a 10-point CGPA grading system. The grades are O (Outstanding) equals 10, A+ equals 9, A equals 8, B+ equals 7, B equals 6, C equals 5, P (Pass) equals 4, and F (Fail) equals 0. CGPA is calculated as the weighted average across all semesters.",
+    "question_hi": "कौन सी ग्रेडिंग प्रणाली उपयोग की जाती है?",
+    "answer_hi": "XYZ कॉलेज 10-बिंदु CGPA ग्रेडिंग प्रणाली का पालन करता है। ग्रेड हैं: O (उत्कृष्ट) = 10, A+ = 9, A = 8, B+ = 7, B = 6, C = 5, P (पास) = 4, F (फेल) = 0। CGPA सभी सेमेस्टर का भारित औसत है।",
+    "tags": ["exam", "grading", "cgpa", "grade", "system"]
+  },
+  {
+    "id": "exam_005",
+    "category": "exams",
+    "question_en": "What is the attendance requirement for exams?",
+    "answer_en": "A minimum of 75% attendance is mandatory to be eligible for end-semester examinations. Students with attendance between 65% and 75% can apply for condonation with a fee of ₹1,000. Attendance below 65% results in detention and the student must repeat the semester.",
+    "question_hi": "परीक्षा के लिए उपस्थिति की आवश्यकता क्या है?",
+    "answer_hi": "सेमेस्टर अंत परीक्षाओं के लिए न्यूनतम 75% उपस्थिति अनिवार्य है। 65-75% उपस्थिति वाले छात्र ₹1,000 शुल्क के साथ माफी के लिए आवेदन कर सकते हैं। 65% से कम उपस्थिति पर छात्र को सेमेस्टर दोहराना होगा।",
+    "tags": ["exam", "attendance", "requirement", "condonation", "detained"]
+  },
+  {
+    "id": "exam_006",
+    "category": "exams",
+    "question_en": "How are internal assessments conducted?",
+    "answer_en": "Internal assessments carry 30% weightage and consist of two mid-term exams of 20 marks each where the best of two is considered, three quizzes of 10 marks each where the best two count, two assignments per subject, and class participation marks. Mid-terms are held in the 6th and 12th week.",
+    "question_hi": "आंतरिक मूल्यांकन कैसे किया जाता है?",
+    "answer_hi": "आंतरिक मूल्यांकन का 30% भार है। इसमें 20-20 अंकों की दो मध्य-सत्र परीक्षाएं, 10-10 अंकों की तीन क्विज़, प्रति विषय दो असाइनमेंट, और कक्षा भागीदारी अंक शामिल हैं। मिड-टर्म 6वें और 12वें सप्ताह में होते हैं।",
+    "tags": ["exam", "internal", "assessment", "midterm", "quiz"]
+  },
+  {
+    "id": "exam_007",
+    "category": "exams",
+    "question_en": "How can I get my exam results?",
+    "answer_en": "Exam results are published on the college website and student portal within 30 days of the last exam. You will also receive an SMS notification on your registered mobile number. Physical mark sheets are distributed by the examination cell within 60 days.",
+    "question_hi": "मैं अपने परीक्षा परिणाम कैसे प्राप्त कर सकता हूँ?",
+    "answer_hi": "परीक्षा परिणाम अंतिम परीक्षा के 30 दिनों के भीतर कॉलेज वेबसाइट और छात्र पोर्टल पर प्रकाशित किए जाते हैं। आपको पंजीकृत मोबाइल नंबर पर SMS सूचना भी मिलेगी। भौतिक अंक पत्र 60 दिनों के भीतर वितरित किए जाते हैं।",
+    "tags": ["exam", "result", "marksheet", "portal", "sms"]
+  },
+  {
+    "id": "hostel_001",
+    "category": "hostel",
+    "question_en": "How do I apply for hostel accommodation?",
+    "answer_en": "Hostel applications are accepted during the admission process through the student portal. Submit proof of admission along with the hostel application form. Allotment is done on first-come-first-served basis, with priority given to outstation students whose hometown is more than 50 km away.",
+    "question_hi": "मैं छात्रावास आवास के लिए कैसे आवेदन करूं?",
+    "answer_hi": "छात्रावास आवेदन प्रवेश प्रक्रिया के दौरान छात्र पोर्टल से स्वीकार किए जाते हैं। छात्रावास आवेदन फॉर्म के साथ प्रवेश प्रमाण जमा करें। आवंटन पहले आओ-पहले पाओ के आधार पर होता है, 50 किमी से अधिक दूर के छात्रों को प्राथमिकता मिलती है।",
+    "tags": ["hostel", "accommodation", "apply", "room", "allotment"]
+  },
+  {
+    "id": "hostel_002",
+    "category": "hostel",
+    "question_en": "What are the hostel timings and rules?",
+    "answer_en": "Hostel gate timings are entry by 9:00 PM on weekdays and 10:00 PM on weekends. Mess timings are breakfast 7:30 to 9:00 AM, lunch 12:30 to 2:00 PM, and dinner 7:30 to 9:00 PM. Visitors are allowed in the common area between 4:00 and 6:00 PM only. Alcohol and smoking are strictly prohibited.",
+    "question_hi": "छात्रावास के समय और नियम क्या हैं?",
+    "answer_hi": "छात्रावास गेट का समय सप्ताह के दिनों में रात 9 बजे और सप्ताहांत में रात 10 बजे तक है। मेस का समय नाश्ता 7:30-9:00, दोपहर का भोजन 12:30-2:00, रात का खाना 7:30-9:00 है। आगंतुक केवल 4-6 बजे कॉमन एरिया में आ सकते हैं।",
+    "tags": ["hostel", "timings", "rules", "mess", "gate"]
+  },
+  {
+    "id": "hostel_003",
+    "category": "hostel",
+    "question_en": "What facilities are available in the hostel?",
+    "answer_en": "Each hostel room is furnished with a bed, study table, chair, cupboard, and bookshelf. Common facilities include Wi-Fi at 50 Mbps, common room with TV, indoor games room, gym, laundry service, 24/7 water and electricity with inverter backup, and a reading room open until midnight.",
+    "question_hi": "छात्रावास में कौन सी सुविधाएं उपलब्ध हैं?",
+    "answer_hi": "प्रत्येक कमरे में बिस्तर, स्टडी टेबल, कुर्सी, अलमारी और किताबों की अलमारी है। सामान्य सुविधाओं में 50 Mbps वाई-फाई, टीवी के साथ कॉमन रूम, जिम, लॉन्ड्री, 24/7 बिजली-पानी और मध्यरात्रि तक खुला रीडिंग रूम शामिल है।",
+    "tags": ["hostel", "facilities", "wifi", "gym", "laundry"]
+  },
+  {
+    "id": "hostel_004",
+    "category": "hostel",
+    "question_en": "Is there a separate hostel for girls?",
+    "answer_en": "Yes, XYZ College has a separate girls hostel with 200 rooms located within the campus. It has 24/7 security with female wardens, CCTV surveillance, biometric entry system, and a dedicated sick room with a nurse on duty. The girls hostel also has its own mess and gym.",
+    "question_hi": "क्या लड़कियों के लिए अलग छात्रावास है?",
+    "answer_hi": "हाँ, कैंपस में 200 कमरों वाला अलग गर्ल्स हॉस्टल है। इसमें महिला वार्डन के साथ 24/7 सुरक्षा, CCTV निगरानी, बायोमेट्रिक एंट्री, और ड्यूटी पर नर्स के साथ सिक रूम है। गर्ल्स हॉस्टल का अपना मेस और जिम भी है।",
+    "tags": ["hostel", "girls", "separate", "security", "warden"]
+  },
+  {
+    "id": "hostel_005",
+    "category": "hostel",
+    "question_en": "Can I change my hostel room?",
+    "answer_en": "Room change requests can be submitted to the hostel warden after completing one semester. Requests are considered based on availability and valid reasons such as medical or academic needs. The room change window is open during the first two weeks of each semester.",
+    "question_hi": "क्या मैं अपना छात्रावास कमरा बदल सकता हूँ?",
+    "answer_hi": "एक सेमेस्टर पूरा करने के बाद कमरा बदलने का अनुरोध छात्रावास वार्डन को दिया जा सकता है। अनुरोध उपलब्धता और वैध कारणों जैसे चिकित्सा या शैक्षणिक जरूरतों के आधार पर माने जाते हैं। कमरा बदलने की विंडो हर सेमेस्टर के पहले दो हफ्तों में खुलती है।",
+    "tags": ["hostel", "room", "change", "warden", "request"]
+  },
+  {
+    "id": "adm_001",
+    "category": "admission",
+    "question_en": "What is the admission process for B.Tech?",
+    "answer_en": "B.Tech admissions are based on JEE Main scores. Register online at admissions.xyzcollege.edu.in, enter your JEE Main rank and preferred branches, attend counselling on the assigned date, pay the admission fee of ₹25,000, and submit original documents within 7 days. The admission window is typically June to July.",
+    "question_hi": "बी.टेक के लिए प्रवेश प्रक्रिया क्या है?",
+    "answer_hi": "बी.टेक प्रवेश JEE Main अंकों पर आधारित है। admissions.xyzcollege.edu.in पर ऑनलाइन पंजीकरण करें, JEE Main रैंक और पसंदीदा शाखाएं दर्ज करें, काउंसलिंग में भाग लें, ₹25,000 प्रवेश शुल्क भुगतान करें, और 7 दिनों में मूल दस्तावेज जमा करें।",
+    "tags": ["admission", "btech", "jee", "counselling", "process"]
+  },
+  {
+    "id": "adm_002",
+    "category": "admission",
+    "question_en": "What documents are required for admission?",
+    "answer_en": "Required documents include Class 10 and 12 mark sheets and certificates, JEE Main or GATE or CAT score card, transfer certificate, migration certificate if from another university, domicile certificate, caste certificate if applicable, Aadhaar card, 4 passport-size photographs, and medical fitness certificate.",
+    "question_hi": "प्रवेश के लिए कौन से दस्तावेज आवश्यक हैं?",
+    "answer_hi": "आवश्यक दस्तावेज: कक्षा 10 और 12 की अंकपत्र और प्रमाणपत्र, JEE/GATE/CAT स्कोर कार्ड, स्थानांतरण प्रमाणपत्र, प्रवासन प्रमाणपत्र, अधिवास प्रमाणपत्र, जाति प्रमाणपत्र (यदि लागू), आधार कार्ड, 4 पासपोर्ट फोटो, और चिकित्सा प्रमाणपत्र।",
+    "tags": ["admission", "documents", "marksheet", "certificate", "aadhaar"]
+  },
+  {
+    "id": "adm_003",
+    "category": "admission",
+    "question_en": "What are the available B.Tech branches?",
+    "answer_en": "XYZ College offers B.Tech in Computer Science and Engineering with 120 seats, Electronics and Communication with 60 seats, Mechanical Engineering with 60 seats, Civil Engineering with 60 seats, Electrical Engineering with 60 seats, Information Technology with 60 seats, and Artificial Intelligence and Data Science with 60 seats.",
+    "question_hi": "कौन सी बी.टेक शाखाएं उपलब्ध हैं?",
+    "answer_hi": "XYZ कॉलेज में बी.टेक शाखाएं: कंप्यूटर साइंस (120 सीटें), इलेक्ट्रॉनिक्स एंड कम्युनिकेशन (60), मैकेनिकल (60), सिविल (60), इलेक्ट्रिकल (60), इंफॉर्मेशन टेक्नोलॉजी (60), और AI एंड डेटा साइंस (60 सीटें) उपलब्ध हैं।",
+    "tags": ["admission", "btech", "branches", "cse", "seats"]
+  },
+  {
+    "id": "adm_004",
+    "category": "admission",
+    "question_en": "Can I get admission through lateral entry?",
+    "answer_en": "Yes, diploma holders can get admission to the 2nd year of B.Tech through lateral entry. Admissions are based on state-level lateral entry test scores. 10% of seats in each branch are reserved for lateral entry students. The application deadline is usually in August.",
+    "question_hi": "क्या मुझे लेटरल एंट्री के माध्यम से प्रवेश मिल सकता है?",
+    "answer_hi": "हाँ, डिप्लोमा धारक लेटरल एंट्री से बी.टेक के दूसरे वर्ष में प्रवेश ले सकते हैं। प्रवेश राज्य स्तरीय लेटरल एंट्री परीक्षा अंकों पर आधारित है। प्रत्येक शाखा में 10% सीटें लेटरल एंट्री के लिए आरक्षित हैं।",
+    "tags": ["admission", "lateral", "entry", "diploma", "second year"]
+  },
+  {
+    "id": "adm_005",
+    "category": "admission",
+    "question_en": "What is the age limit for B.Tech admission?",
+    "answer_en": "There is no upper age limit for B.Tech admission at XYZ College. However, candidates must have passed Class 12 with Physics, Chemistry, and Mathematics with a minimum of 60% aggregate marks or 55% for reserved categories from a recognized board.",
+    "question_hi": "बी.टेक प्रवेश के लिए आयु सीमा क्या है?",
+    "answer_hi": "XYZ कॉलेज में बी.टेक प्रवेश के लिए कोई ऊपरी आयु सीमा नहीं है। हालांकि, उम्मीदवारों को मान्यता प्राप्त बोर्ड से भौतिकी, रसायन विज्ञान और गणित के साथ कक्षा 12 में न्यूनतम 60% अंक (आरक्षित के लिए 55%) होने चाहिए।",
+    "tags": ["admission", "age", "limit", "eligibility", "class 12"]
+  },
+  {
+    "id": "lib_001",
+    "category": "library",
+    "question_en": "What are the library timings?",
+    "answer_en": "The central library is open from 8:00 AM to 10:00 PM on weekdays and 9:00 AM to 6:00 PM on weekends. During examination periods the library remains open until midnight. The digital library section is accessible 24/7 through the online portal at library.xyzcollege.edu.in.",
+    "question_hi": "पुस्तकालय का समय क्या है?",
+    "answer_hi": "केंद्रीय पुस्तकालय सप्ताह के दिनों में सुबह 8:00 से रात 10:00 बजे तक और सप्ताहांत में सुबह 9:00 से शाम 6:00 बजे तक खुला रहता है। परीक्षा अवधि में पुस्तकालय आधी रात तक खुला रहता है। डिजिटल लाइब्रेरी 24/7 उपलब्ध है।",
+    "tags": ["library", "timings", "hours", "digital", "exam"]
+  },
+  {
+    "id": "lib_002",
+    "category": "library",
+    "question_en": "How many books can I borrow from the library?",
+    "answer_en": "Undergraduate students can borrow up to 4 books for 14 days. Postgraduate students can borrow 6 books for 21 days. Faculty members can borrow 10 books for the entire semester. Late return attracts a fine of ₹5 per book per day.",
+    "question_hi": "मैं पुस्तकालय से कितनी किताबें उधार ले सकता हूँ?",
+    "answer_hi": "स्नातक छात्र 14 दिनों के लिए 4 किताबें उधार ले सकते हैं। स्नातकोत्तर छात्र 21 दिनों के लिए 6 किताबें ले सकते हैं। संकाय सदस्य पूरे सेमेस्टर के लिए 10 किताबें ले सकते हैं। देरी से वापसी पर ₹5 प्रति पुस्तक प्रतिदिन जुर्माना है।",
+    "tags": ["library", "books", "borrow", "limit", "fine"]
+  },
+  {
+    "id": "lib_003",
+    "category": "library",
+    "question_en": "Does the library have online databases and journals?",
+    "answer_en": "Yes, the library provides access to IEEE Xplore, Springer, Elsevier ScienceDirect, ACM Digital Library, and NPTEL. Students can access these using their student ID login at library.xyzcollege.edu.in. Remote access is available through VPN for off-campus use.",
+    "question_hi": "क्या पुस्तकालय में ऑनलाइन डेटाबेस और जर्नल हैं?",
+    "answer_hi": "हाँ, पुस्तकालय IEEE Xplore, Springer, Elsevier ScienceDirect, ACM Digital Library और NPTEL तक पहुंच प्रदान करता है। छात्र library.xyzcollege.edu.in पर अपने छात्र आईडी से इन तक पहुंच सकते हैं। कैंपस से बाहर VPN से एक्सेस संभव है।",
+    "tags": ["library", "online", "database", "journal", "ieee"]
+  },
+  {
+    "id": "lib_004",
+    "category": "library",
+    "question_en": "Does the library offer printing and photocopying services?",
+    "answer_en": "Yes, the library has a self-service printing and photocopying center. Black and white printing costs ₹2 per page, color printing costs ₹10 per page, and scanning costs ₹5 per page. Students get a prepaid printing balance of ₹200 per semester included in the library fee.",
+    "question_hi": "क्या पुस्तकालय प्रिंटिंग और फोटोकॉपी सेवाएं प्रदान करता है?",
+    "answer_hi": "हाँ, पुस्तकालय में स्वयं-सेवा प्रिंटिंग और फोटोकॉपी केंद्र है। ब्लैक एंड व्हाइट प्रिंट ₹2, कलर प्रिंट ₹10, और स्कैनिंग ₹5 प्रति पेज है। छात्रों को प्रति सेमेस्टर ₹200 का प्रीपेड प्रिंटिंग बैलेंस मिलता है।",
+    "tags": ["library", "printing", "photocopying", "scanning", "charges"]
+  },
+  {
+    "id": "tt_001",
+    "category": "timetable",
+    "question_en": "What are the regular class timings?",
+    "answer_en": "Regular classes run from 9:00 AM to 4:30 PM, Monday to Friday. Each lecture is 50 minutes with a 10-minute break between classes. Lunch break is from 12:30 PM to 1:30 PM. Saturday classes are held for lab sessions from 9:00 AM to 1:00 PM on alternate weeks.",
+    "question_hi": "नियमित कक्षा का समय क्या है?",
+    "answer_hi": "नियमित कक्षाएं सोमवार से शुक्रवार, सुबह 9:00 बजे से शाम 4:30 बजे तक चलती हैं। प्रत्येक व्याख्यान 50 मिनट का है और बीच में 10 मिनट का ब्रेक है। लंच ब्रेक दोपहर 12:30 से 1:30 बजे तक है। शनिवार को वैकल्पिक सप्ताह में लैब सेशन होते हैं।",
+    "tags": ["timetable", "class", "timings", "lecture", "schedule"]
+  },
+  {
+    "id": "tt_002",
+    "category": "timetable",
+    "question_en": "When does the new academic session start?",
+    "answer_en": "The new academic session starts in the first week of August for odd semesters and in the first week of January for even semesters. Orientation for freshers is held in the last week of July. The academic calendar is published on the college website by June each year.",
+    "question_hi": "नया शैक्षणिक सत्र कब शुरू होता है?",
+    "answer_hi": "नया शैक्षणिक सत्र विषम सेमेस्टर के लिए अगस्त के पहले सप्ताह और सम सेमेस्टर के लिए जनवरी के पहले सप्ताह में शुरू होता है। नए छात्रों का ओरिएंटेशन जुलाई के अंतिम सप्ताह में होता है।",
+    "tags": ["timetable", "academic", "session", "semester", "orientation"]
+  },
+  {
+    "id": "tt_003",
+    "category": "timetable",
+    "question_en": "Are there any holidays during the semester?",
+    "answer_en": "The college observes all national holidays including Republic Day, Independence Day, and Gandhi Jayanti, major festivals like Diwali, Holi, Eid, and Christmas, and a mid-semester break of one week. Total holidays per semester are approximately 15 to 20 days as published in the academic calendar.",
+    "question_hi": "क्या सेमेस्टर के दौरान कोई छुट्टियां हैं?",
+    "answer_hi": "कॉलेज सभी राष्ट्रीय अवकाश जैसे गणतंत्र दिवस, स्वतंत्रता दिवस, गांधी जयंती, प्रमुख त्योहार जैसे दीवाली, होली, ईद, क्रिसमस और एक सप्ताह का मिड-सेमेस्टर ब्रेक मनाता है। कुल छुट्टियां लगभग 15-20 दिन होती हैं।",
+    "tags": ["timetable", "holidays", "festival", "break", "calendar"]
+  },
+  {
+    "id": "tt_004",
+    "category": "timetable",
+    "question_en": "Are there extra-curricular activities during class hours?",
+    "answer_en": "Wednesday afternoons from 2:00 to 4:30 PM are reserved for extra-curricular activities including club meetings, cultural events, and sports practice. No regular classes are scheduled during this time. Students can join clubs like Coding Club, Robotics Club, Drama Club, and Music Club.",
+    "question_hi": "क्या कक्षा के घंटों के दौरान पाठ्येतर गतिविधियां होती हैं?",
+    "answer_hi": "बुधवार दोपहर 2:00 से 4:30 बजे तक पाठ्येतर गतिविधियों के लिए आरक्षित है, जिसमें क्लब मीटिंग, सांस्कृतिक कार्यक्रम और खेल अभ्यास शामिल हैं। इस दौरान कोई नियमित कक्षाएं नहीं होतीं।",
+    "tags": ["timetable", "extracurricular", "clubs", "activities", "wednesday"]
+  },
+  {
+    "id": "placement_001",
+    "category": "placements",
+    "question_en": "What is the placement rate at XYZ College?",
+    "answer_en": "XYZ College achieved a placement rate of 92% in 2024. Over 450 students were placed across 80+ companies. The average package was ₹6.2 LPA and the highest package was ₹32 LPA offered by a leading MNC.",
+    "question_hi": "XYZ कॉलेज में प्लेसमेंट दर क्या है?",
+    "answer_hi": "XYZ कॉलेज ने 2024 में 92% प्लेसमेंट दर हासिल की। 450 से अधिक छात्रों को 80+ कंपनियों में नियुक्त किया गया। औसत पैकेज ₹6.2 LPA और उच्चतम पैकेज ₹32 LPA रहा।",
+    "tags": ["placement", "rate", "package", "recruiter", "job"]
+  },
+  {
+    "id": "placement_002",
+    "category": "placements",
+    "question_en": "What is the average placement package?",
+    "answer_en": "The average placement package for the 2024 batch was ₹6.2 LPA. Computer Science students received an average of ₹8.5 LPA, while the overall median package was ₹5.5 LPA. The highest domestic package was ₹32 LPA and the highest international offer was ₹54 LPA.",
+    "question_hi": "औसत प्लेसमेंट पैकेज क्या है?",
+    "answer_hi": "2024 बैच का औसत प्लेसमेंट पैकेज ₹6.2 LPA था। कंप्यूटर साइंस छात्रों को औसतन ₹8.5 LPA मिला। उच्चतम घरेलू पैकेज ₹32 LPA और उच्चतम अंतरराष्ट्रीय ऑफर ₹54 LPA था।",
+    "tags": ["placement", "package", "salary", "lpa", "average"]
+  },
+  {
+    "id": "placement_003",
+    "category": "placements",
+    "question_en": "Which companies recruit from XYZ College?",
+    "answer_en": "Top recruiters include TCS, Infosys, Wipro, Cognizant, Capgemini, Accenture, Amazon, Microsoft, Deloitte, and L&T. Over 120 companies visited the campus in 2024 for recruitment drives. Both IT and core engineering companies participate in the placement season.",
+    "question_hi": "XYZ कॉलेज से कौन सी कंपनियां भर्ती करती हैं?",
+    "answer_hi": "प्रमुख भर्तीकर्ताओं में TCS, Infosys, Wipro, Cognizant, Capgemini, Accenture, Amazon, Microsoft, Deloitte और L&T शामिल हैं। 2024 में 120 से अधिक कंपनियों ने कैंपस में भर्ती अभियान चलाया।",
+    "tags": ["placement", "recruiter", "company", "campus", "drive"]
+  },
+  {
+    "id": "placement_004",
+    "category": "placements",
+    "question_en": "How do I register for campus placements?",
+    "answer_en": "Students must register on the placement portal at placements.xyzcollege.edu.in before September 1 of their final year. Upload your updated resume, academic transcripts, and a passport-size photo. You must have a minimum CGPA of 6.0 with no active backlogs to be eligible for placements.",
+    "question_hi": "मैं कैंपस प्लेसमेंट के लिए कैसे रजिस्टर करूं?",
+    "answer_hi": "छात्रों को अंतिम वर्ष के 1 सितंबर से पहले placements.xyzcollege.edu.in पर रजिस्टर करना होगा। अपना अपडेटेड रिज्यूमे, अकादमिक ट्रांसक्रिप्ट और पासपोर्ट फोटो अपलोड करें। प्लेसमेंट के लिए न्यूनतम 6.0 CGPA और कोई बैकलॉग नहीं होना चाहिए।",
+    "tags": ["placement", "register", "portal", "resume", "eligibility"]
+  },
+  {
+    "id": "placement_005",
+    "category": "placements",
+    "question_en": "Are internships mandatory at XYZ College?",
+    "answer_en": "Yes, a summer internship of 6 to 8 weeks is mandatory after the 6th semester for all B.Tech students. The placement cell assists students in finding internships with partner companies. Students can also arrange their own internships subject to approval from their HOD.",
+    "question_hi": "क्या XYZ कॉलेज में इंटर्नशिप अनिवार्य है?",
+    "answer_hi": "हाँ, सभी बी.टेक छात्रों के लिए 6वें सेमेस्टर के बाद 6 से 8 सप्ताह की ग्रीष्मकालीन इंटर्नशिप अनिवार्य है। प्लेसमेंट सेल साझेदार कंपनियों में इंटर्नशिप खोजने में छात्रों की सहायता करता है।",
+    "tags": ["placement", "internship", "summer", "mandatory", "training"]
+  },
+  {
+    "id": "placement_006",
+    "category": "placements",
+    "question_en": "How do I contact the placement cell?",
+    "answer_en": "The Training and Placement Cell is located in Block C, Ground Floor, Room C-101. The placement officer is Prof. Anand Sharma and can be reached at placement@xyzcollege.edu.in or +91-9876-543220. Office hours are Monday to Friday, 10:00 AM to 5:00 PM.",
+    "question_hi": "मैं प्लेसमेंट सेल से कैसे संपर्क करूं?",
+    "answer_hi": "प्रशिक्षण और प्लेसमेंट सेल ब्लॉक C, भूतल, कमरा C-101 में स्थित है। प्लेसमेंट अधिकारी प्रो. आनंद शर्मा हैं। संपर्क: placement@xyzcollege.edu.in या +91-9876-543220। कार्यालय समय सोमवार से शुक्रवार 10:00 AM से 5:00 PM।",
+    "tags": ["placement", "contact", "cell", "officer", "email"]
+  },
+  {
+    "id": "placement_007",
+    "category": "placements",
+    "question_en": "What is the Pre-Placement Offer (PPO) policy?",
+    "answer_en": "Students who receive a PPO from their internship company can accept it before the placement season begins. A PPO counts as a placement offer and the student will not be eligible for further campus drives unless the PPO package is below ₹4 LPA. PPOs must be reported to the placement cell within 7 days of receiving them.",
+    "question_hi": "प्री-प्लेसमेंट ऑफर (PPO) नीति क्या है?",
+    "answer_hi": "जो छात्र अपनी इंटर्नशिप कंपनी से PPO प्राप्त करते हैं, वे प्लेसमेंट सीजन शुरू होने से पहले इसे स्वीकार कर सकते हैं। PPO एक प्लेसमेंट ऑफर के रूप में गिना जाता है। PPO ₹4 LPA से कम होने पर छात्र अन्य कैंपस ड्राइव में भाग ले सकते हैं।",
+    "tags": ["placement", "ppo", "offer", "internship", "policy"]
+  },
+  {
+    "id": "placement_008",
+    "category": "placements",
+    "question_en": "What is the dress code for placement interviews?",
+    "answer_en": "Students must wear formal attire during all placement activities. For male students, this means formal trousers, a full-sleeve shirt, and leather shoes. For female students, formal salwar kameez, saree, or western formals are acceptable. Jeans, t-shirts, and casual footwear are strictly not allowed during interviews.",
+    "question_hi": "प्लेसमेंट इंटरव्यू के लिए ड्रेस कोड क्या है?",
+    "answer_hi": "सभी प्लेसमेंट गतिविधियों के दौरान छात्रों को औपचारिक पोशाक पहननी होगी। पुरुष छात्रों के लिए फॉर्मल ट्राउजर, फुल-स्लीव शर्ट और लेदर शूज अनिवार्य हैं। जींस, टी-शर्ट और कैजुअल फुटवियर इंटरव्यू में सख्त वर्जित हैं।",
+    "tags": ["placement", "dress", "code", "interview", "formal"]
+  },
+  {
+    "id": "lib_005",
+    "category": "library",
+    "question_en": "How can I renew a borrowed library book?",
+    "answer_en": "Books can be renewed online through the library portal at library.xyzcollege.edu.in or by visiting the circulation desk. Each book can be renewed once for an additional 14 days for undergraduate students. Renewal is not possible if another student has placed a hold on the book.",
+    "question_hi": "मैं उधार ली गई पुस्तकालय की किताब को कैसे नवीनीकृत कर सकता हूँ?",
+    "answer_hi": "किताबें library.xyzcollege.edu.in पर ऑनलाइन या सर्कुलेशन डेस्क पर जाकर नवीनीकृत की जा सकती हैं। प्रत्येक किताब को स्नातक छात्रों के लिए एक बार 14 दिनों के लिए नवीनीकृत किया जा सकता है। अगर किसी अन्य छात्र ने किताब पर होल्ड लगाया है तो नवीनीकरण संभव नहीं है।",
+    "tags": ["library", "renew", "book", "circulation", "portal"]
+  },
+  {
+    "id": "lib_006",
+    "category": "library",
+    "question_en": "What is the fine for late return of library books?",
+    "answer_en": "The fine for late return of library books is ₹5 per book per day. If a book is lost or damaged beyond repair, the borrower must pay the full replacement cost of the book plus a processing fee of ₹200. Fines can be paid online through the student portal or at the library counter.",
+    "question_hi": "पुस्तकालय की किताबें देरी से लौटाने पर जुर्माना क्या है?",
+    "answer_hi": "पुस्तकालय की किताबें देरी से लौटाने पर ₹5 प्रति पुस्तक प्रतिदिन जुर्माना है। किताब खो जाने या क्षतिग्रस्त होने पर पूरी प्रतिस्थापन लागत और ₹200 प्रोसेसिंग शुल्क देना होगा। जुर्माना ऑनलाइन या लाइब्रेरी काउंटर पर भुगतान किया जा सकता है।",
+    "tags": ["library", "fine", "late", "return", "penalty"]
+  },
+  {
+    "id": "lib_007",
+    "category": "library",
+    "question_en": "What digital resources are available in the library?",
+    "answer_en": "The digital library provides access to over 15,000 e-books, 500 e-journals, and databases including IEEE Xplore, Springer, ScienceDirect, ACM, and NPTEL video lectures. Students can access all digital resources 24/7 using their student ID at library.xyzcollege.edu.in or through the campus VPN from home.",
+    "question_hi": "पुस्तकालय में कौन से डिजिटल संसाधन उपलब्ध हैं?",
+    "answer_hi": "डिजिटल लाइब्रेरी 15,000 से अधिक ई-पुस्तकें, 500 ई-जर्नल, और IEEE Xplore, Springer, ScienceDirect, ACM, NPTEL सहित डेटाबेस प्रदान करती है। छात्र 24/7 अपने छात्र ID से या VPN से सभी डिजिटल संसाधनों तक पहुंच सकते हैं।",
+    "tags": ["library", "digital", "ebook", "journal", "database"]
+  },
+  {
+    "id": "lib_008",
+    "category": "library",
+    "question_en": "Can I reserve a group study room in the library?",
+    "answer_en": "Yes, group study rooms on the first floor of the library can be booked through the library portal. Each room seats 6 students and can be reserved for a maximum of 3 hours per session. Booking is available up to 2 days in advance. Students must carry their ID cards while using study rooms.",
+    "question_hi": "क्या मैं पुस्तकालय में ग्रुप स्टडी रूम आरक्षित कर सकता हूँ?",
+    "answer_hi": "हाँ, पुस्तकालय की पहली मंजिल पर ग्रुप स्टडी रूम लाइब्रेरी पोर्टल से बुक किए जा सकते हैं। प्रत्येक रूम 6 छात्रों को बैठा सकता है और अधिकतम 3 घंटे के लिए आरक्षित किया जा सकता है।",
+    "tags": ["library", "study", "room", "group", "booking"]
+  },
+  {
+    "id": "lib_009",
+    "category": "library",
+    "question_en": "What are the library membership rules for new students?",
+    "answer_en": "Library membership is automatic for all enrolled students. Visit the circulation desk with your student ID card within the first week of admission to activate your account. Your library card and digital login credentials will be issued within 3 working days. There is no separate membership fee.",
+    "question_hi": "नए छात्रों के लिए पुस्तकालय सदस्यता नियम क्या हैं?",
+    "answer_hi": "सभी नामांकित छात्रों के लिए पुस्तकालय सदस्यता स्वचालित है। प्रवेश के पहले सप्ताह में अपने छात्र ID कार्ड के साथ सर्कुलेशन डेस्क पर जाएं। लाइब्रेरी कार्ड 3 कार्य दिवसों में जारी किया जाएगा। कोई अलग सदस्यता शुल्क नहीं है।",
+    "tags": ["library", "membership", "new", "student", "card"]
+  },
+  {
+    "id": "tt_005",
+    "category": "timetable",
+    "question_en": "How can I access my class timetable?",
+    "answer_en": "Your class timetable is available on the student portal at portal.xyzcollege.edu.in under the Academic section. You can also download the timetable as a PDF from the department notice board or the college mobile app. Timetables are updated before the start of each semester.",
+    "question_hi": "मैं अपनी कक्षा का टाइमटेबल कैसे देख सकता हूँ?",
+    "answer_hi": "आपकी कक्षा का टाइमटेबल छात्र पोर्टल portal.xyzcollege.edu.in पर शैक्षणिक अनुभाग में उपलब्ध है। आप विभाग के नोटिस बोर्ड या कॉलेज मोबाइल ऐप से भी टाइमटेबल डाउनलोड कर सकते हैं।",
+    "tags": ["timetable", "access", "portal", "download", "schedule"]
+  },
+  {
+    "id": "tt_006",
+    "category": "timetable",
+    "question_en": "What are the lab session timings?",
+    "answer_en": "Lab sessions are scheduled in 2-hour slots, typically from 2:00 PM to 4:00 PM on weekdays. Some departments also have Saturday lab sessions from 9:00 AM to 1:00 PM on alternate weeks. Each student gets 4 to 6 lab sessions per week depending on their branch and semester.",
+    "question_hi": "लैब सेशन का समय क्या है?",
+    "answer_hi": "लैब सेशन 2 घंटे के स्लॉट में निर्धारित हैं, आमतौर पर सप्ताह के दिनों में दोपहर 2:00 से शाम 4:00 बजे तक। कुछ विभागों में वैकल्पिक शनिवार को भी सुबह 9:00 से दोपहर 1:00 बजे तक लैब सेशन होते हैं।",
+    "tags": ["timetable", "lab", "session", "timings", "practical"]
+  },
+  {
+    "id": "tt_007",
+    "category": "timetable",
+    "question_en": "What is the lunch break timing?",
+    "answer_en": "Lunch break is from 12:30 PM to 1:30 PM every day. The college canteen and food court are located near the central block and serve both vegetarian and non-vegetarian meals. Students are not allowed to leave the campus during lunch break without a gate pass from their class teacher.",
+    "question_hi": "लंच ब्रेक का समय क्या है?",
+    "answer_hi": "लंच ब्रेक हर दिन दोपहर 12:30 बजे से 1:30 बजे तक है। कॉलेज कैंटीन और फूड कोर्ट सेंट्रल ब्लॉक के पास स्थित है और शाकाहारी और मांसाहारी दोनों भोजन परोसता है।",
+    "tags": ["timetable", "lunch", "break", "canteen", "timing"]
+  },
+  {
+    "id": "tt_008",
+    "category": "timetable",
+    "question_en": "Where can I find the holiday list for this year?",
+    "answer_en": "The complete holiday list for the academic year is published in the academic calendar available on the college website at xyzcollege.edu.in. A printed copy is also distributed during orientation. The academic calendar includes all national holidays, festival breaks, and the mid-semester vacation dates.",
+    "question_hi": "इस साल की छुट्टियों की सूची कहाँ मिल सकती है?",
+    "answer_hi": "शैक्षणिक वर्ष की पूरी छुट्टियों की सूची कॉलेज वेबसाइट xyzcollege.edu.in पर शैक्षणिक कैलेंडर में प्रकाशित है। ओरिएंटेशन के दौरान प्रिंटेड कॉपी भी वितरित की जाती है।",
+    "tags": ["timetable", "holiday", "list", "calendar", "vacation"]
+  },
+  {
+    "id": "tt_009",
+    "category": "timetable",
+    "question_en": "Can I change my elective subject after the timetable is released?",
+    "answer_en": "Elective changes are allowed during the first week of the semester through the academic section. Submit an elective change form signed by both the current and new elective course instructors. Changes after the first week are not permitted unless approved by the Dean of Academics.",
+    "question_hi": "क्या टाइमटेबल जारी होने के बाद मैं अपना ऐच्छिक विषय बदल सकता हूँ?",
+    "answer_hi": "सेमेस्टर के पहले सप्ताह के दौरान शैक्षणिक अनुभाग से ऐच्छिक परिवर्तन की अनुमति है। वर्तमान और नए ऐच्छिक पाठ्यक्रम प्रशिक्षकों द्वारा हस्ताक्षरित ऐच्छिक परिवर्तन फॉर्म जमा करें।",
+    "tags": ["timetable", "elective", "change", "subject", "academic"]
+  },
+  {
+    "id": "general_001",
+    "category": "general",
+    "question_en": "What is the address of XYZ College?",
+    "answer_en": "XYZ College of Engineering and Technology is located at Survey No. 45, Pune-Mumbai Highway, Maval Taluka, Pune District, Maharashtra 410506. The campus is 35 km from Pune Railway Station and 25 km from Pune International Airport. The nearest bus stop is XYZ College Gate on the MSRTC route.",
+    "question_hi": "XYZ कॉलेज का पता क्या है?",
+    "answer_hi": "XYZ कॉलेज ऑफ इंजीनियरिंग एंड टेक्नोलॉजी सर्वे नं. 45, पुणे-मुंबई हाईवे, मावल तालुका, पुणे जिला, महाराष्ट्र 410506 में स्थित है। कैंपस पुणे रेलवे स्टेशन से 35 किमी और पुणे अंतरराष्ट्रीय हवाई अड्डे से 25 किमी दूर है।",
+    "tags": ["general", "address", "location", "campus", "pune"]
+  },
+  {
+    "id": "general_002",
+    "category": "general",
+    "question_en": "Who is the principal of XYZ College?",
+    "answer_en": "The current principal of XYZ College of Engineering and Technology is Dr. Rajesh Kumar. He holds a Ph.D. in Computer Science from IIT Bombay and has over 25 years of academic and administrative experience. The principal's office is in the Administrative Block, First Floor. He can be reached at principal@xyzcollege.edu.in.",
+    "question_hi": "XYZ कॉलेज के प्रिंसिपल कौन हैं?",
+    "answer_hi": "XYZ कॉलेज के वर्तमान प्रिंसिपल डॉ. राजेश कुमार हैं। उन्होंने IIT बॉम्बे से कंप्यूटर साइंस में पीएचडी की है और 25 से अधिक वर्षों का शैक्षणिक अनुभव है। संपर्क: principal@xyzcollege.edu.in।",
+    "tags": ["general", "principal", "head", "administration", "contact"]
+  },
+  {
+    "id": "general_003",
+    "category": "general",
+    "question_en": "What is the official website of the college?",
+    "answer_en": "The official website of XYZ College of Engineering and Technology is www.xyzcollege.edu.in. The student portal is accessible at portal.xyzcollege.edu.in and the placement portal at placements.xyzcollege.edu.in. All official circulars, notifications, and results are published on the main website.",
+    "question_hi": "कॉलेज की आधिकारिक वेबसाइट क्या है?",
+    "answer_hi": "XYZ कॉलेज की आधिकारिक वेबसाइट www.xyzcollege.edu.in है। छात्र पोर्टल portal.xyzcollege.edu.in और प्लेसमेंट पोर्टल placements.xyzcollege.edu.in पर उपलब्ध है। सभी आधिकारिक सूचनाएं वेबसाइट पर प्रकाशित होती हैं।",
+    "tags": ["general", "website", "portal", "url", "official"]
+  },
+  {
+    "id": "general_004",
+    "category": "general",
+    "question_en": "What is the contact phone number of the college?",
+    "answer_en": "The main reception desk of XYZ College can be reached at +91-9876-543200. The admission helpline number is +91-9876-543210 and is active from June to September during the admission season. For email inquiries, write to info@xyzcollege.edu.in. The fax number is 020-28765432.",
+    "question_hi": "कॉलेज का संपर्क फोन नंबर क्या है?",
+    "answer_hi": "XYZ कॉलेज का मुख्य रिसेप्शन नंबर +91-9876-543200 है। प्रवेश हेल्पलाइन नंबर +91-9876-543210 है जो जून से सितंबर तक सक्रिय रहता है। ईमेल: info@xyzcollege.edu.in।",
+    "tags": ["general", "phone", "contact", "helpline", "email"]
+  },
+  {
+    "id": "general_005",
+    "category": "general",
+    "question_en": "What is the anti-ragging helpline number?",
+    "answer_en": "The national anti-ragging helpline number is 1800-180-5522 which is toll-free and available 24/7. Students can also report ragging incidents to the college anti-ragging committee at antiragging@xyzcollege.edu.in or by calling the campus helpline at +91-9876-543225. All complaints are treated with strict confidentiality.",
+    "question_hi": "एंटी-रैगिंग हेल्पलाइन नंबर क्या है?",
+    "answer_hi": "राष्ट्रीय एंटी-रैगिंग हेल्पलाइन नंबर 1800-180-5522 है जो टोल-फ्री और 24/7 उपलब्ध है। छात्र रैगिंग घटनाओं की रिपोर्ट antiragging@xyzcollege.edu.in पर या कैंपस हेल्पलाइन +91-9876-543225 पर भी कर सकते हैं।",
+    "tags": ["general", "ragging", "helpline", "complaint", "safety"]
+  },
+  {
+    "id": "grievance_001",
+    "category": "grievance",
+    "question_en": "How do I file a complaint or grievance?",
+    "answer_en": "You can file a grievance through the online portal at portal.xyzcollege.edu.in under the Grievance section, by submitting a written application to the Dean of Student Affairs, or by visiting the Student Grievance Cell in the Admin Block Room A-105. All grievances are acknowledged within 2 working days and resolved within 15 working days.",
+    "question_hi": "मैं शिकायत या ग्रीवांस कैसे दर्ज करूं?",
+    "answer_hi": "आप portal.xyzcollege.edu.in पर ग्रीवांस सेक्शन में ऑनलाइन शिकायत दर्ज कर सकते हैं, डीन ऑफ स्टूडेंट अफेयर्स को लिखित आवेदन दे सकते हैं, या एडमिन ब्लॉक कमरा A-105 में ग्रीवांस सेल से मिल सकते हैं। सभी शिकायतों को 2 कार्य दिवसों में स्वीकार और 15 दिनों में हल किया जाता है।",
+    "tags": ["grievance", "complaint", "file", "portal", "redressal"]
+  },
+  {
+    "id": "grievance_002",
+    "category": "grievance",
+    "question_en": "Who is the ombudsman for student grievances?",
+    "answer_en": "The college ombudsman is Dr. Meena Patil, a retired High Court judge appointed by the university. The ombudsman handles appeals against decisions of the grievance committee and cases involving serious misconduct. The ombudsman office is in the Administrative Block and can be contacted at ombudsman@xyzcollege.edu.in.",
+    "question_hi": "छात्र शिकायतों के लिए लोकपाल कौन हैं?",
+    "answer_hi": "कॉलेज की लोकपाल डॉ. मीना पाटिल हैं, जो विश्वविद्यालय द्वारा नियुक्त सेवानिवृत्त उच्च न्यायालय की न्यायाधीश हैं। लोकपाल गंभीर शिकायतों को संभालती हैं। संपर्क: ombudsman@xyzcollege.edu.in।",
+    "tags": ["grievance", "ombudsman", "appeal", "judge", "contact"]
+  },
+  {
+    "id": "grievance_003",
+    "category": "grievance",
+    "question_en": "What is the timeline for grievance resolution?",
+    "answer_en": "The grievance committee acknowledges receipt of complaints within 2 working days. The investigation and resolution is completed within 15 working days. If the student is not satisfied with the resolution, they can appeal to the Principal within 10 days. The Principal's decision is given within 7 additional working days.",
+    "question_hi": "शिकायत समाधान की समय सीमा क्या है?",
+    "answer_hi": "शिकायत समिति 2 कार्य दिवसों के भीतर शिकायतों की प्राप्ति स्वीकार करती है। जांच और समाधान 15 कार्य दिवसों में पूरा किया जाता है। यदि छात्र समाधान से संतुष्ट नहीं है तो 10 दिनों में प्रिंसिपल से अपील कर सकता है।",
+    "tags": ["grievance", "timeline", "resolution", "appeal", "days"]
+  },
+  {
+    "id": "transport_001",
+    "category": "transport",
+    "question_en": "What are the college bus routes?",
+    "answer_en": "XYZ College operates 12 bus routes covering major areas of Pune including Shivajinagar, Kothrud, Hadapsar, Hinjewadi, Pimpri-Chinchwad, and Wakad. Buses depart from designated pickup points at 7:30 AM and return from college at 5:00 PM. The complete route map is available on the college website under Transport section.",
+    "question_hi": "कॉलेज बस रूट्स क्या हैं?",
+    "answer_hi": "XYZ कॉलेज पुणे के प्रमुख क्षेत्रों शिवाजीनगर, कोथरूड, हडपसर, हिंजेवाड़ी, पिंपरी-चिंचवड और वाकड को कवर करते हुए 12 बस रूट संचालित करता है। बसें सुबह 7:30 बजे पिकअप पॉइंट से चलती हैं और शाम 5:00 बजे कॉलेज से लौटती हैं।",
+    "tags": ["transport", "bus", "route", "pune", "pickup"]
+  },
+  {
+    "id": "transport_002",
+    "category": "transport",
+    "question_en": "What is the college transport fee?",
+    "answer_en": "The transport fee varies by distance. For routes within 15 km it is ₹15,000 per semester, for 15 to 30 km it is ₹20,000 per semester, and for routes beyond 30 km it is ₹25,000 per semester. Transport fee must be paid along with the tuition fee at the start of each semester.",
+    "question_hi": "कॉलेज ट्रांसपोर्ट फीस क्या है?",
+    "answer_hi": "ट्रांसपोर्ट फीस दूरी के अनुसार भिन्न होती है। 15 किमी के भीतर ₹15,000 प्रति सेमेस्टर, 15-30 किमी के लिए ₹20,000, और 30 किमी से अधिक के लिए ₹25,000 प्रति सेमेस्टर है। ट्रांसपोर्ट फीस ट्यूशन फीस के साथ भुगतान करनी होगी।",
+    "tags": ["transport", "fee", "bus", "semester", "charges"]
+  },
+  {
+    "id": "transport_003",
+    "category": "transport",
+    "question_en": "What are the bus pickup timings in the morning?",
+    "answer_en": "College buses start their morning rounds at 6:45 AM from the farthest pickup points. Most routes have buses reaching the college by 8:45 AM, giving students 15 minutes before the first class at 9:00 AM. Exact pickup times for each stop are shared via SMS and WhatsApp group at the start of each semester.",
+    "question_hi": "सुबह बस पिकअप का समय क्या है?",
+    "answer_hi": "कॉलेज बसें सुबह 6:45 बजे सबसे दूर के पिकअप पॉइंट से अपना मार्ग शुरू करती हैं। अधिकांश रूट पर बसें सुबह 8:45 बजे तक कॉलेज पहुंच जाती हैं। प्रत्येक स्टॉप का सटीक पिकअप समय SMS और WhatsApp ग्रुप से साझा किया जाता है।",
+    "tags": ["transport", "bus", "pickup", "timing", "morning"]
+  },
+  {
+    "id": "transport_004",
+    "category": "transport",
+    "question_en": "How can I request a change in bus route or stop?",
+    "answer_en": "Bus route or stop change requests can be submitted through the transport office in the Administrative Block or by emailing transport@xyzcollege.edu.in. Route changes are considered at the start of each semester based on demand and bus capacity. A request form is available on the student portal under Transport section.",
+    "question_hi": "मैं बस रूट या स्टॉप में बदलाव का अनुरोध कैसे कर सकता हूँ?",
+    "answer_hi": "बस रूट या स्टॉप बदलने के अनुरोध ट्रांसपोर्ट ऑफिस में या transport@xyzcollege.edu.in पर ईमेल करके जमा किए जा सकते हैं। रूट परिवर्तन प्रत्येक सेमेस्टर की शुरुआत में मांग और बस क्षमता के आधार पर माने जाते हैं।",
+    "tags": ["transport", "route", "change", "request", "stop"]
+  },
+  {
+    "id": "general_006",
+    "category": "general",
+    "question_en": "What is the college accreditation status?",
+    "answer_en": "XYZ College is approved by AICTE and affiliated to the State Technological University. It has received NAAC A grade accreditation with a CGPA of 3.21. The Computer Science department has been accredited by the NBA. The college is also ranked in the NIRF top 200 engineering colleges list.",
+    "question_hi": "कॉलेज की मान्यता स्थिति क्या है?",
+    "answer_hi": "XYZ कॉलेज AICTE द्वारा अनुमोदित और राज्य तकनीकी विश्वविद्यालय से संबद्ध है। इसे NAAC A ग्रेड मान्यता मिली है। CSE विभाग को NBA मान्यता प्राप्त है। कॉलेज NIRF शीर्ष 200 इंजीनियरिंग कॉलेजों में भी है।",
+    "tags": ["general", "accreditation", "naac", "nba", "aicte"]
+  },
+  {
+    "id": "general_007",
+    "category": "general",
+    "question_en": "Does the college have a mobile app?",
+    "answer_en": "Yes, the XYZ College mobile app is available on both Google Play Store and Apple App Store. The app provides access to attendance records, timetable, exam results, fee payment, library services, and campus notifications. Download by searching XYZ College in your app store.",
+    "question_hi": "क्या कॉलेज का मोबाइल ऐप है?",
+    "answer_hi": "हाँ, XYZ कॉलेज मोबाइल ऐप Google Play Store और Apple App Store दोनों पर उपलब्ध है। ऐप उपस्थिति, टाइमटेबल, परीक्षा परिणाम, फीस भुगतान, लाइब्रेरी सेवाओं और कैंपस सूचनाओं तक पहुंच प्रदान करता है।",
+    "tags": ["general", "app", "mobile", "download", "android"]
+  },
+  {
+    "id": "general_008",
+    "category": "general",
+    "question_en": "What medical facilities are available on campus?",
+    "answer_en": "The campus health centre is located near the main gate and operates from 8:00 AM to 8:00 PM with a doctor on duty. Emergency medical assistance is available 24/7 through the hostel sick room. The health centre provides free first aid, basic medication, and annual health check-ups for all students.",
+    "question_hi": "कैंपस में कौन सी चिकित्सा सुविधाएं उपलब्ध हैं?",
+    "answer_hi": "कैंपस स्वास्थ्य केंद्र मुख्य गेट के पास स्थित है और सुबह 8:00 से रात 8:00 बजे तक ड्यूटी डॉक्टर के साथ संचालित होता है। आपातकालीन चिकित्सा सहायता 24/7 उपलब्ध है। सभी छात्रों के लिए मुफ्त प्राथमिक चिकित्सा और वार्षिक स्वास्थ्य जांच उपलब्ध है।",
+    "tags": ["general", "medical", "health", "doctor", "campus"]
+  },
+  {
+    "id": "placement_009",
+    "category": "placements",
+    "question_en": "What placement training programs are offered?",
+    "answer_en": "The placement cell conducts comprehensive training from the 5th semester onwards. This includes aptitude and reasoning workshops, group discussion practice, mock interview sessions with industry professionals, resume writing workshops, and technical skill enhancement programs. Training sessions are held every Saturday from 10:00 AM to 1:00 PM.",
+    "question_hi": "कौन से प्लेसमेंट प्रशिक्षण कार्यक्रम प्रदान किए जाते हैं?",
+    "answer_hi": "प्लेसमेंट सेल 5वें सेमेस्टर से व्यापक प्रशिक्षण आयोजित करता है। इसमें एप्टीट्यूड वर्कशॉप, ग्रुप डिस्कशन अभ्यास, मॉक इंटरव्यू, रिज्यूमे राइटिंग वर्कशॉप और तकनीकी कौशल कार्यक्रम शामिल हैं। प्रशिक्षण हर शनिवार सुबह 10 बजे से दोपहर 1 बजे तक होता है।",
+    "tags": ["placement", "training", "aptitude", "interview", "workshop"]
+  },
+  {
+    "id": "facility_001",
+    "category": "facilities",
+    "question_en": "Is there a gym on campus?",
+    "answer_en": "Yes, the campus gymnasium is open from 6:00 AM to 9:00 PM every day for all enrolled students. It is equipped with modern cardio machines, free weights, resistance equipment, and a yoga zone. A certified fitness trainer is available on weekdays from 6:00 AM to 8:00 AM and 5:00 PM to 8:00 PM.",
+    "question_hi": "क्या कैंपस में जिम है?",
+    "answer_hi": "हाँ, कैंपस जिम प्रतिदिन सुबह 6:00 बजे से रात 9:00 बजे तक सभी छात्रों के लिए खुला है। यह आधुनिक कार्डियो मशीनों, फ्री वेट्स और योग जोन से सुसज्जित है। सर्टिफाइड फिटनेस ट्रेनर सप्ताह के दिनों में उपलब्ध है।",
+    "tags": ["gym", "gymnasium", "fitness", "exercise", "workout", "weights", "yoga", "sports"]
+  },
+  {
+    "id": "facility_002",
+    "category": "facilities",
+    "question_en": "Is there a canteen or food court on campus?",
+    "answer_en": "Yes, the college has a main canteen and a food court located near the central block. The canteen operates from 7:30 AM to 9:00 PM on weekdays and 8:00 AM to 6:00 PM on weekends. It serves vegetarian and non-vegetarian meals, snacks, and beverages at subsidised student rates.",
+    "question_hi": "क्या कैंपस में कैंटीन या फूड कोर्ट है?",
+    "answer_hi": "हाँ, कॉलेज में सेंट्रल ब्लॉक के पास मुख्य कैंटीन और फूड कोर्ट है। कैंटीन सप्ताह के दिनों में सुबह 7:30 बजे से रात 9:00 बजे तक खुलती है। यह शाकाहारी और मांसाहारी भोजन सब्सिडाइज्ड रेटों पर परोसती है।",
+    "tags": ["canteen", "food court", "cafeteria", "dining", "meals", "snacks", "food"]
+  },
+  {
+    "id": "facility_003",
+    "category": "facilities",
+    "question_en": "Is there an auditorium at XYZ College?",
+    "answer_en": "Yes, XYZ College has a fully air-conditioned auditorium with a seating capacity of 1,200. It is equipped with a professional sound system, LED projection screens, and a stage with backstage facilities. The auditorium is used for convocations, cultural events, guest lectures, and student fests.",
+    "question_hi": "XYZ कॉलेज में ऑडिटोरियम है क्या?",
+    "answer_hi": "हाँ, XYZ कॉलेज में 1,200 सीटों की क्षमता वाला पूरी तरह वातानुकूलित ऑडिटोरियम है। इसमें पेशेवर साउंड सिस्टम, LED प्रोजेक्शन स्क्रीन और बैकस्टेज सुविधाओं के साथ स्टेज है।",
+    "tags": ["auditorium", "hall", "seminar hall", "audi", "amphitheatre", "stage", "events"]
+  },
+  {
+    "id": "facility_004",
+    "category": "facilities",
+    "question_en": "Are there sports grounds and outdoor facilities on campus?",
+    "answer_en": "Yes, the college has extensive outdoor sports facilities including a cricket ground, FIFA-standard football field, basketball courts, volleyball courts, badminton courts, and a 400-metre athletics track. There is also an indoor sports hall with table tennis, chess, and carrom facilities.",
+    "question_hi": "क्या कैंपस में खेल मैदान और आउटडोर सुविधाएं हैं?",
+    "answer_hi": "हाँ, कॉलेज में क्रिकेट ग्राउंड, फुटबॉल फील्ड, बास्केटबॉल कोर्ट, वॉलीबॉल कोर्ट, बैडमिंटन कोर्ट और 400-मीटर एथलेटिक्स ट्रैक सहित व्यापक आउटडोर खेल सुविधाएं हैं।",
+    "tags": ["sports", "ground", "playground", "athletics", "cricket", "football", "basketball", "outdoor"]
+  },
+  {
+    "id": "facility_005",
+    "category": "facilities",
+    "question_en": "What computer labs are available on campus?",
+    "answer_en": "The college has 8 fully equipped computer laboratories with over 500 workstations running Windows 11 and Linux. All labs have 1 Gbps internet connectivity. Specialised labs include the AI and Machine Learning Lab, Networking Lab, VLSI Design Lab, and the IoT Research Lab. Labs are open from 8:00 AM to 10:00 PM on weekdays.",
+    "question_hi": "कैंपस में कौन से कंप्यूटर लैब उपलब्ध हैं?",
+    "answer_hi": "कॉलेज में 500 से अधिक वर्कस्टेशन वाले 8 कंप्यूटर लैब हैं जो Windows 11 और Linux पर चलते हैं। विशेष लैब में AI और ML लैब, नेटवर्किंग लैब, VLSI डिजाइन लैब और IoT रिसर्च लैब शामिल हैं।",
+    "tags": ["lab", "computer lab", "laboratory", "practical", "workshop", "workstation", "programming"]
+  },
+  {
+    "id": "facility_006",
+    "category": "facilities",
+    "question_en": "Is Wi-Fi available throughout the campus?",
+    "answer_en": "Yes, the entire campus including hostels, classrooms, labs, library, and common areas is covered by high-speed Wi-Fi at 1 Gbps. Students get a daily data quota of 10 GB at full speed, after which speed is reduced to 5 Mbps. Access is authenticated using student ID credentials.",
+    "question_hi": "क्या पूरे कैंपस में वाई-फाई उपलब्ध है?",
+    "answer_hi": "हाँ, छात्रावास, कक्षाओं, लैब, पुस्तकालय और सामान्य क्षेत्रों सहित पूरे कैंपस में 1 Gbps हाई-स्पीड वाई-फाई उपलब्ध है। छात्रों को प्रतिदिन 10 GB डेटा कोटा मिलता है।",
+    "tags": ["wifi", "internet", "network", "connectivity", "broadband", "wireless", "data"]
+  },
+  {
+    "id": "facility_007",
+    "category": "facilities",
+    "question_en": "Is there a medical facility or health centre on campus?",
+    "answer_en": "Yes, the campus health centre is near the main gate and operates from 8:00 AM to 8:00 PM on all working days with a qualified MBBS doctor on duty. Emergency services are available 24 hours through the hostel sick room staffed with a duty nurse. Basic medicines, first aid, and annual health check-ups are provided free to all students.",
+    "question_hi": "क्या कैंपस में चिकित्सा सुविधा या स्वास्थ्य केंद्र है?",
+    "answer_hi": "हाँ, मुख्य गेट के पास कैंपस स्वास्थ्य केंद्र है जो MBBS डॉक्टर के साथ सुबह 8:00 बजे से रात 8:00 बजे तक खुला है। आपातकालीन सेवाएं 24 घंटे उपलब्ध हैं। सभी छात्रों को मुफ्त प्राथमिक चिकित्सा और वार्षिक स्वास्थ्य जांच मिलती है।",
+    "tags": ["medical", "health", "clinic", "doctor", "nurse", "sick room", "hospital", "first aid"]
+  },
+  {
+    "id": "facility_008",
+    "category": "facilities",
+    "question_en": "Is there an ATM on campus?",
+    "answer_en": "Yes, there are two ATMs on campus. One SBI ATM is located near the main gate and one HDFC ATM is inside the academic block near the accounts office. Both ATMs are operational 24 hours. An internet banking kiosk is also available in the library for fee payments and online transactions.",
+    "question_hi": "क्या कैंपस में ATM है?",
+    "answer_hi": "हाँ, कैंपस में दो ATM हैं। एक SBI ATM मुख्य गेट के पास और एक HDFC ATM अकाउंट्स ऑफिस के पास है। दोनों ATM 24 घंटे चालू हैं। पुस्तकालय में इंटरनेट बैंकिंग कियोस्क भी उपलब्ध है।",
+    "tags": ["atm", "bank", "cash", "sbi", "hdfc", "money", "transaction"]
+  },
+  {
+    "id": "facility_009",
+    "category": "facilities",
+    "question_en": "Is there parking available on campus for students?",
+    "answer_en": "Yes, designated parking areas are available for two-wheelers and four-wheelers. Students must register their vehicles at the security office and obtain a campus parking permit. Two-wheeler permits cost Rs 1,000 per year and four-wheeler permits cost Rs 2,500 per year. Helmets are mandatory for two-wheeler riders on campus.",
+    "question_hi": "क्या कैंपस में छात्रों के लिए पार्किंग उपलब्ध है?",
+    "answer_hi": "हाँ, दोपहिया और चौपहिया वाहनों के लिए निर्धारित पार्किंग क्षेत्र उपलब्ध हैं। छात्रों को सुरक्षा कार्यालय में वाहन पंजीकृत करना होगा। दोपहिया परमिट ₹1,000 और चौपहिया परमिट ₹2,500 प्रति वर्ष है।",
+    "tags": ["parking", "vehicle", "two-wheeler", "four-wheeler", "permit", "car", "bike"]
+  },
+  {
+    "id": "facility_010",
+    "category": "facilities",
+    "question_en": "Is there a printing or photocopying facility on campus?",
+    "answer_en": "Yes, printing and photocopying services are available in the central library and in each department block. Black and white printing costs Rs 2 per page, colour printing Rs 10 per page, and scanning Rs 5 per page. Students receive a prepaid printing credit of Rs 200 per semester included in their library fee.",
+    "question_hi": "क्या कैंपस में प्रिंटिंग या फोटोकॉपी सुविधा है?",
+    "answer_hi": "हाँ, केंद्रीय पुस्तकालय और प्रत्येक विभाग ब्लॉक में प्रिंटिंग और फोटोकॉपी सेवाएं उपलब्ध हैं। ब्लैक एंड व्हाइट प्रिंट ₹2, कलर प्रिंट ₹10 और स्कैनिंग ₹5 प्रति पेज है।",
+    "tags": ["printing", "photocopy", "scan", "xerox", "print", "document", "copy"]
+  }
+]

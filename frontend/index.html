@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusBot 🎓 Campus AI Assistant</title>
+    <meta name="description" content="NexusBot - Multilingual campus chatbot for XYZ College">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root{--bg:#0f0f1a;--card:#1a1a2e;--surface:#16162a;--accent:#6c63ff;--pink:#ff6b9d;--text:#f0f0f5;--muted:#8888a8;--border:rgba(255,255,255,.06);--glow:0 0 40px rgba(108,99,255,.15)}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;justify-content:center;align-items:center;overflow:hidden}
+        #app{width:100%;height:100%;max-width:900px;max-height:100vh;display:flex;flex-direction:column;background:var(--surface);border-radius:0;position:relative;overflow:hidden}
+        @media(min-width:768px){#app{max-height:92vh;border-radius:24px;margin:20px;border:1px solid var(--border);box-shadow:var(--glow)}}
+
+        /* Header */
+        .header{padding:20px 28px;display:flex;align-items:center;justify-content:space-between;background:rgba(22,22,42,.9);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);flex-shrink:0}
+        .logo{font-family:'Outfit',sans-serif;font-size:1.4rem;font-weight:700;background:linear-gradient(135deg,var(--accent),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .lang-select{background:var(--card);color:var(--text);border:1px solid var(--border);padding:8px 14px;border-radius:10px;font-size:.85rem;cursor:pointer;outline:none;transition:border .2s}
+        .lang-select:hover{border-color:var(--accent)}
+
+        /* Messages */
+        #messages{flex:1;overflow-y:auto;padding:24px;display:flex;flex-direction:column;gap:16px;scroll-behavior:smooth}
+        #messages::-webkit-scrollbar{width:5px}
+        #messages::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08);border-radius:10px}
+
+        .msg{max-width:82%;padding:14px 18px;border-radius:18px;animation:fadeUp .35s ease;line-height:1.55;font-size:.95rem;position:relative}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+        .msg.bot{align-self:flex-start;background:var(--card);border:1px solid var(--border);border-bottom-left-radius:4px}
+        .msg.user{align-self:flex-end;background:linear-gradient(135deg,var(--accent),#8b5cf6);border-bottom-right-radius:4px}
+        .msg-meta{font-size:.7rem;color:var(--muted);margin-top:8px;display:flex;justify-content:space-between;align-items:center}
+        .user .msg-meta{color:rgba(255,255,255,.6);justify-content:flex-end}
+        .badge{background:rgba(108,99,255,.15);color:#a5a0ff;padding:2px 8px;border-radius:6px;font-size:.65rem;font-weight:600}
+
+        /* Feedback */
+        .fb{display:flex;gap:6px;margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+        .fb button{background:0;border:0;color:var(--muted);cursor:pointer;font-size:.95rem;width:28px;height:28px;border-radius:6px;transition:all .2s}
+        .fb button:hover{background:rgba(255,255,255,.08);color:#fff}
+        .fb button.on{color:var(--accent)}
+
+        /* Typing */
+        .typing-dots{display:flex;gap:4px;padding:8px}
+        .typing-dots span{width:7px;height:7px;background:var(--muted);border-radius:50%;animation:pulse 1.3s ease-in-out infinite}
+        .typing-dots span:nth-child(2){animation-delay:.15s}
+        .typing-dots span:nth-child(3){animation-delay:.3s}
+        @keyframes pulse{0%,80%,100%{transform:scale(.4);opacity:.4}40%{transform:scale(1);opacity:1}}
+
+        /* Quick Replies */
+        .chips{display:flex;gap:10px;flex-wrap:wrap;padding:8px 24px 4px;flex-shrink:0}
+        .chip{background:var(--card);border:1px solid var(--border);padding:7px 16px;border-radius:100px;font-size:.82rem;color:var(--muted);cursor:pointer;transition:all .2s}
+        .chip:hover{border-color:var(--accent);color:var(--accent);background:rgba(108,99,255,.08)}
+
+        /* Input */
+        .input-bar{padding:20px 24px 28px;display:flex;gap:12px;align-items:center;flex-shrink:0;background:var(--surface)}
+        .input-bar input{flex:1;background:var(--card);border:1px solid var(--border);padding:16px 20px;border-radius:14px;color:#fff;font-size:.95rem;outline:0;transition:border .2s}
+        .input-bar input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(108,99,255,.12)}
+        .send{background:linear-gradient(135deg,var(--accent),var(--pink));border:0;width:52px;height:52px;border-radius:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .15s;box-shadow:0 4px 16px rgba(108,99,255,.3)}
+        .send:hover{transform:scale(1.06)}
+        .send svg{fill:#fff;width:22px;height:22px}
+
+        .status{padding:8px 24px;font-size:.7rem;color:var(--muted);display:flex;justify-content:space-between;flex-shrink:0;border-top:1px solid var(--border)}
+        .dot-g{width:7px;height:7px;background:#4caf50;border-radius:50%;display:inline-block;margin-right:4px}
+    </style>
+</head>
+<body>
+<div id="app">
+    <header class="header">
+        <div class="logo">NexusBot 🎓</div>
+        <select class="lang-select" id="lang">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="mr">मराठी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+            <option value="bn">বাংলা</option>
+        </select>
+    </header>
+
+    <div id="messages"></div>
+
+    <div class="chips" id="chips">
+        <span class="chip" onclick="send('What is the B.Tech fee?')">Fee Structure 💰</span>
+        <span class="chip" onclick="send('How to apply for scholarship?')">Scholarships 🎓</span>
+        <span class="chip" onclick="send('When are the exams?')">Exam Schedule 📅</span>
+        <span class="chip" onclick="send('What are hostel facilities?')">Hostel Info 🏠</span>
+        <span class="chip" onclick="send('What is the placement statistics?')">Placements 💼</span>
+    </div>
+
+    <div class="input-bar">
+        <input id="inp" placeholder="Ask anything about the campus..." autocomplete="off">
+        <button class="send" onclick="send()"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+    </div>
+
+    <div class="status">
+        <span><span class="dot-g"></span> Online</span>
+        <span id="sid"></span>
+    </div>
+</div>
+
+<script>
+const SID = localStorage.getItem('nx_sid') || ('s_' + Math.random().toString(36).slice(2,10));
+localStorage.setItem('nx_sid', SID);
+document.getElementById('sid').textContent = 'Session: ' + SID.slice(0,10);
+
+const GREET = {
+    en: "Hi! I'm NexusBot 🎓 How can I help you today?",
+    hi: "नमस्ते! मैं NexusBot हूँ 🎓 आज मैं आपकी कैसे मदद कर सकता हूँ?",
+    mr: "नमस्कार! मी NexusBot आहे 🎓 मी आज तुम्हाला कशी मदत करू शकतो?",
+    ta: "வணக்கம்! நான் NexusBot 🎓 இன்று உங்களுக்கு எப்படி உதவலாம்?",
+    te: "హలో! నేను NexusBot 🎓 ఈరోజు మీకు ఎలా సహాయం చేయగలను?",
+    bn: "হ্যালো! আমি NexusBot 🎓 আজ আপনাকে কীভাবে সাহায্য করতে পারি?"
+};
+
+const LANG_NAMES = {en:'English',hi:'हिंदी',mr:'मराठी',ta:'தமிழ்',te:'తెలుగు',bn:'বাংলা'};
+const box = document.getElementById('messages');
+const inp = document.getElementById('inp');
+
+function ts(){return new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}
+
+function addMsg(text, side, extra){
+    const d = document.createElement('div');
+    d.className = 'msg ' + side;
+
+    const body = document.createElement('div');
+    body.textContent = text;
+    d.appendChild(body);
+
+    const meta = document.createElement('div');
+    meta.className = 'msg-meta';
+
+    if(side === 'bot' && extra){
+        const b = document.createElement('span');
+        b.className = 'badge';
+        const ln = LANG_NAMES[extra.lang] || extra.lang;
+        b.textContent = '🌐 ' + ln + ' • ' + Math.round((extra.conf||0)*100) + '% confidence';
+        meta.appendChild(b);
+    }
+
+    const t = document.createElement('span');
+    t.textContent = ts();
+    meta.appendChild(t);
+    d.appendChild(meta);
+
+    if(side === 'bot' && extra && extra.mid){
+        const fb = document.createElement('div');
+        fb.className = 'fb';
+        fb.innerHTML = '<button onclick="doFb(\''+extra.mid+'\',1,this)">👍</button><button onclick="doFb(\''+extra.mid+'\',-1,this)">👎</button>';
+        d.appendChild(fb);
+    }
+
+    box.appendChild(d);
+    box.scrollTop = box.scrollHeight;
+}
+
+function showTyping(){
+    const d=document.createElement('div');d.className='msg bot';d.id='typing';
+    d.innerHTML='<div class="typing-dots"><span></span><span></span><span></span></div>';
+    box.appendChild(d);box.scrollTop=box.scrollHeight;
+}
+function hideTyping(){const e=document.getElementById('typing');if(e)e.remove();}
+
+async function send(text){
+    const msg = text || inp.value.trim();
+    if(!msg) return;
+    inp.value = '';
+    addMsg(msg, 'user');
+    showTyping();
+
+    try{
+        const r = await fetch('/chat',{
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body:JSON.stringify({query:msg, session_id:SID, lang:document.getElementById('lang').value})
+        });
+        const data = await r.json();
+        hideTyping();
+        const displayLang = document.getElementById('lang').value;
+        addMsg(data.response, 'bot', {lang:displayLang, conf:data.confidence, mid:data.message_id});
+    }catch(e){
+        hideTyping();
+        addMsg('⚠️ Server error. Please try again.', 'bot');
+        console.error(e);
+    }
+}
+
+async function doFb(mid, rating, btn){
+    try{
+        await fetch('/feedback',{method:'POST',headers:{'Content-Type':'application/json'},
+            body:JSON.stringify({session_id:SID,message_id:mid,rating})});
+        btn.parentElement.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
+        btn.classList.add('on');
+        btn.parentElement.style.pointerEvents='none';
+    }catch(e){console.error(e)}
+}
+
+inp.addEventListener('keydown',e=>{if(e.key==='Enter')send()});
+document.getElementById('lang').addEventListener('change',function(){
+    box.innerHTML='';addMsg(GREET[this.value]||GREET.en,'bot');
+});
+window.onload=()=>addMsg(GREET.en,'bot');
+</script>
+</body>
+</html>
